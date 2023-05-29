@@ -28,6 +28,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 header ul{
@@ -48,4 +49,19 @@ header ul a{
 .search{
     font-size: 1.05rem;
     padding: 0 3rem;
+}
+
+.hamburger{
+    padding-left: 1.5rem ;
+}
+
+.hamburger a{
+    padding: 0;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(155,155,155,0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
